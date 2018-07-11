@@ -1,0 +1,2 @@
+# oldisgold
+Our startup project.
