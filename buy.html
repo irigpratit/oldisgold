@@ -1,23 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> BUY </title>
-        <meta charset="utf-8">
-    </head>
+  <head>
+     <title> BUY </title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/style.css">
+		 <script type="js/jquery-3.2.1.js"></script>
+  	 <script src="js/bootstrap.min.js"></script>
+   </head>
 
-    <body>
-      <div class="icon-bar">
-        <a href="#"><i class="fa fa-search"></i></a> 
+  <body>
 
-      <input type="search" id="mySearch" placeholder="Search for Book.." style="width:50vw; height:30px;">
-      <button onclick= "myFunction()"> Search </button>
+    <!-- <div class="icon-bar">
+    <a href="#"><i class="fa fa-search"></i></a>
+    <input type="search" id="mySearch" placeholder="Search for Book.." style="width:50vw; height:30px;">
+    <button onclick= "myFunction()"> Search </button> -->
+<!--
+    <div class="container">
+      <h2>Aligning images</h2>
+      <p>Use the float classes to float the image to the left or to the right:</p>
+      <div class="row">
+        <div class="col-md-4"><img src="images/nepal.png" alt="Paris" width="304" height="236"></div>
+        <div class="col-md-4"><img src="images/shey.png" alt="Paris" width="304" height="236"></div>
+        <div class="col-md-4"><img src="images/shey.png" alt="Paris" width="304" height="236"></div>
+  </div>
+    </div>-->
 
-      <script>
+<header><br>
+  
+<div class="jumbotron jumbotron-fluid">
+
+       <div class="row">
+        <div class="col-md-3">
+        </div>
+
+    <div class="col-md-9">
+    <input type="text" name="search" placeholder="Search..">
+    </div>
+  </div>
+
+</header>
+
+    <div class="row text-center">
+        <div class="col-md-4">
+        <div class="thumbnail">
+        <img src="images/book1.png" alt="Paris" width="400" height="300">
+        <p><strong>Forests of Farallon</strong></p>
+        <p>Fri. 27 March 2014</p>
+        <button class="btn">Buy Book</button>
+        </div>
+        </div>
+
+      <div class="col-md-4">
+      <div class="thumbnail">
+      <img src="images/book2.png" alt="New York" width="400" height="300">
+      <p><strong>Minimalism</strong></p>
+      <p>Sat. 28 November 2014</p>
+      <button class="btn">Buy Book</button>
+      </div>
+      </div>
+
+      <div class="col-md-4">
+      <div class="thumbnail">
+      <img src="images/book3.png" alt="San Francisco" width="400" height="300">
+      <p><strong> Four Seasons of Loneliness</strong></p>
+      <p>Sun. 29 December 2011</p>
+      <button class="btn">Buy Book</button>
+      </div>
+      </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4">
+        <div class="thumbnail">
+        <img src="images/book5.png" alt="Paris" width="400" height="300">
+        <p><strong>Forests of Farallon</strong></p>
+        <p>Fri. 27 March 2014</p>
+        <button class="btn">Buy Book</button>
+        </div>
+        </div>
+
+       <div class="col-md-4">
+       <div class="thumbnail">
+       <img src="images/book8.jpeg" alt="New York" width="400" height="300">
+       <p><strong>Minimalism</strong></p>
+       <p>Sat. 28 November 2014</p>
+       <button class="btn">Buy Book</button>
+       </div>
+       </div>
+
+        <div class="col-md-4">
+        <div class="thumbnail">
+        <img src="images/book6.jpg" alt="San Francisco" width="400" height="300">
+        <p><strong> Four Seasons of Loneliness</strong></p>
+        <p>Sun. 29 December 2011</p>
+        <button class="btn">Buy Book</button>
+        </div>
+        </div>
+      </div>
+
+<script>
 function myFunction(){
   var x=dpcument.getElementById("mySearch").placeholder;
   document.getElementById("demo").innerHTML =x;
 }
 </script>
-    </body>
+  </body>
 
     </html>
