@@ -2,9 +2,11 @@ body{
     /*color: #888888;*/
     font-family: 'Bree Serif',serif;
     font-size: 16px;
-    background-image:url("../images/backgroundbook.jpg");
+    /*background-image:url("../images/backgroundbook.jpg");*/
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    margin: 0px;
+    text-align: center;
     /*background-position: right top;*/
     /*background-attachment: fixed;*/
 }
@@ -64,16 +66,7 @@ nav>div>button{
 
 }
 
-
-body {
-  margin: 0px;
-  text-align: center;
-}
-body > div {
-  width: 100%;
-}
-
-body > div > div {
+#menu-list{
   margin-bottom: 15px;
   text-align: center;
   padding-top: 150px;
@@ -150,4 +143,49 @@ a .round i {
 }
 .type-1 a:hover .round i {
   left: 12%!important;
+}
+
+
+.header{
+  height: auto;
+  background: grey;
+  padding: 5px;
+  margin-bottom: 40px;
+}
+
+.thumbnail p,.thumbnail button{
+  opacity: 0;
+}
+
+
+
+.thumbnail:hover{
+  transform: scale(0.9);
+  transition: .5s;
+}
+
+.thumbnail:hover p,.thumbnail:hover button{
+  opacity: 1;
+  transition: .5S;
+}
+
+/* layout.css Style */
+.upload-drop-zone {
+  height: 200px;
+  width: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+/* skin.css Style*/
+.upload-drop-zone {
+  color: #ccc;
+  border-style: dashed;
+  border-color: #ccc;
+  line-height: 200px;
+  text-align: center
+}
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
 }
