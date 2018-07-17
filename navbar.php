@@ -1,9 +1,3 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
 <!DOCTYPE html>
 <html class="no-js">
 	<head>
@@ -11,51 +5,30 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>BUY|SELL|EXCHANGE your books with us</title>
 		<meta name="description" content="Twitter Bootstrap Modal Login Popup - Social Login Popup ">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
-
-
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
 		<link rel="stylesheet" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="css/font-awesome.min.css"/>
-
 		<link rel="stylesheet" href="css/style.css" />
-		
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="js/vendor/jquery-1.10.2.min.js"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
 
 	</head>
 	<body>
-
-		<nav>
+<nav>
 			<div>
-				<button id='modal-launcher' class="btn btn-primary btn-1" onclick="location.replace('index.html');">Home</button>
+				<button id='modal-launcher' class="btn btn-primary btn-1" onclick="location.replace('index.php')">Home</button>
 			</div>
 			<div></div>
 			<div><button id='modal-launcher' class="btn btn-primary btn-1" data-toggle="modal" data-target="#login-modal">
 					  Sign In
 					</button></div>
 		</nav>
-		<div class="type-1" id="menu-list">
-                <a href="buy.html" class="btn btn-1">
-                    <span class="txt">BUY</span>
-                    <span class="round"><i class="fa fa-chevron-right"></i></span>
-                </a><br><br><br><br><br>
-                <a href="sell.html" class="btn btn-1">
-                    <span class="txt">SELL</span>
-                    <span class="round"><i class="fa fa-chevron-right"></i></span>
-                </a><br><br><br><br><br>
-                <a href="" class="btn btn-1">
-                    <span class="txt">EXCHANGE</span>
-                    <span class="round"><i class="fa fa-chevron-right"></i></span>
-                </a><br><br><br><br>
-        </div>
-
-
-        <!-- model -->
-        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
     	<div class="modal-content">
       		<div class="modal-header login_modal_header">
@@ -103,5 +76,3 @@
     	</div>
   	</div>
 </div>
-	</body>
-</html>
